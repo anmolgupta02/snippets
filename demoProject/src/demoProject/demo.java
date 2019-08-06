@@ -19,6 +19,8 @@ public class demo {
 		
 			System.setProperty("webdriver.chrome.driver", "/home/appventurez/Documents/seljars/chromedriver");
 			driver = new ChromeDriver();
+			
+			//Dukkan Admin Panel. 
 			baseURL = "http://13.233.216.107:9091/";
 			
 		
@@ -55,8 +57,7 @@ public class demo {
 			Thread.sleep(3000);
 		System.out.println("Script run Successfully");
 		
-		driver.quit();
-		}
+		driver.quit();	}
 	
 	}
 
